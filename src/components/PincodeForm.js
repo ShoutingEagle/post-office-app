@@ -47,4 +47,4 @@ const PincodeForm = () => {
   );
 };
 
-export default PincodeForm;
+export default PincodeForm;
