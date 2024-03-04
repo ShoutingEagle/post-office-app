@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <Routes>
-      <Route path='/' element={<PincodeForm/>}/>
+      <Route path='/post-office-app' element={<PincodeForm/>}/>
       <Route path='/navigation' element={<Navigation/>}/>
     </Routes>
   );
