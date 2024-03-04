@@ -1,18 +1,24 @@
+// App.js
 
-import './App.css';
-import Home from './components/Home';
-import PostOfficeResult from './components/PostOfficeResult'
+import React from 'react';
+import { useSelector } from 'react-redux';
+import PincodeForm from './components/PincodeForm'; 
+import Spinner from './components/Spinner'; 
+import PincodeDetails from './components/PincodeDetails'; 
 import {Routes,Route} from 'react-router-dom'
+import Navigation from './components/Navigation'
+import './App.css'
 
-function App() {
+const App = () => {
+  const loading = useSelector(state => state.pincode.loading);
+  const pincodeData = useSelector(state => state.pincode.data);
+
   return (
-    <div className="app">
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='post-office-list' element={<PostOfficeResult/>}/>
-      </Routes>
-    </div>
+    <Routes>
+      <Route path='/' element={<PincodeForm/>}/>
+      <Route path='navigation' element={<Navigation/>}/>
+    </Routes>
   );
-}
+};
 
 export default App;

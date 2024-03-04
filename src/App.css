@@ -43,8 +43,20 @@ button:active{
 
 .details-container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   gap: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.details-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   font-weight: 700;
   font-size: 20px;
   padding: 10px;
@@ -58,10 +70,6 @@ button:active{
   font-weight: 700;
   border: 1px solid black;
   outline: none;
-}
-
-.postofficelist{
-
 }
 
 .cards-container{
@@ -87,21 +95,10 @@ button:active{
   flex-direction: column;
   gap: 5px;
   padding: 8px;
+  font-weight: 500;
 }
 
-input{
-  width: 40%;
-  height: 35px;
-  padding-left: 0.5em ;
-  font-size: 16px;
-  font-weight: 700;
-  border: 1px solid black;
-  outline: none;
-}
 
-input:focus{
-  border: 2px solid rgb(8, 54, 180);
-}
 
 
 
@@ -167,4 +164,20 @@ span{
   letter-spacing: 1px;
   line-height: 200px;
   animation: text 3s ease-in-out infinite;
+}
+
+
+
+input{
+  width: 40%;
+  height: 35px;
+  padding-left: 0.5em ;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid black;
+  outline: none;
+}
+
+input:focus{
+  border: 2px solid rgb(8, 54, 180);
 }

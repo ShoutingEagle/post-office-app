@@ -1,11 +1,10 @@
-import { configureStore } from "@reduxjs/toolkit";
-import dataReducer from "../features/dataSlice";
-
+import { configureStore } from '@reduxjs/toolkit';
+import pincodeReducer from '../features/pincodeSlice';
 
 const store = configureStore({
-    reducer : {
-        data : dataReducer,
-    }
-})
+  reducer: {
+    pincode: pincodeReducer,
+  },
+});
 
-export default store
+export default store;
