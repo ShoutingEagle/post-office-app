@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/post-office-app/static/css/main.172279ee.css",
-    "main.js": "/post-office-app/static/js/main.cb078906.js",
+    "main.css": "/post-office-app/static/css/main.0e1d43ed.css",
+    "main.js": "/post-office-app/static/js/main.4282a846.js",
     "index.html": "/post-office-app/index.html",
-    "main.172279ee.css.map": "/post-office-app/static/css/main.172279ee.css.map",
-    "main.cb078906.js.map": "/post-office-app/static/js/main.cb078906.js.map"
+    "main.0e1d43ed.css.map": "/post-office-app/static/css/main.0e1d43ed.css.map",
+    "main.4282a846.js.map": "/post-office-app/static/js/main.4282a846.js.map"
   },
   "entrypoints": [
-    "static/css/main.172279ee.css",
-    "static/js/main.cb078906.js"
+    "static/css/main.0e1d43ed.css",
+    "static/js/main.4282a846.js"
   ]
 }
