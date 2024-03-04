@@ -181,3 +181,7 @@ input{
 input:focus{
   border: 2px solid rgb(8, 54, 180);
 }
+
+.details-wrapper{
+  width: 70%;
+}

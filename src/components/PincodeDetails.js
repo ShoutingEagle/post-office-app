@@ -22,7 +22,7 @@ const PincodeDetails = () => {
   }
   
   const previousPage = () => {
-    navigate('/');
+    navigate('/post-office-app');
   }
 
   return (
