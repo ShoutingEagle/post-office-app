@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Routes>
       <Route path='/' element={<PincodeForm/>}/>
-      <Route path='navigation' element={<Navigation/>}/>
+      <Route path='/navigation' element={<Navigation/>}/>
     </Routes>
   );
 };

@@ -21,7 +21,7 @@ const PincodeForm = () => {
       }
       
       dispatch(fetchPincodeDetails(pincodeNumber));
-      navigate('navigation');
+      navigate('/navigation');
     };
   
 
@@ -47,7 +47,4 @@ const PincodeForm = () => {
   );
 };
 
-export default PincodeForm;
-
-
-
+export default PincodeForm;

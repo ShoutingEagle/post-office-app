@@ -9,13 +9,6 @@ const PincodeDetails = () => {
   const [postOffice,setPostOffice] = useState(pincodeDetails[0].PostOffice)
 
   const navigate = useNavigate();
-  // const handleChange = (e) => {
-  //   setInputData(e.target.value);
-  //   setPostOffice(postOffice.filter((item) => {
-  //     return item.Name.toLowerCase().includes(inputData.toLowerCase());
-  //   }))
-    
-  // }
 
 
   const handleChange = (e) => {
